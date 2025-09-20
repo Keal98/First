@@ -1,6 +1,6 @@
 # Code Smell MCP Server
 
-This repository contains a Minimal Client Protocol (MCP) server that exposes
+This repository contains a MCP server that exposes
 code-smell detection tools backed by Semantic Kernel orchestration, Chroma for
 vector storage, and Google Gemini for embeddings and LLM-powered analysis.
 
