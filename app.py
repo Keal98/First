@@ -34,8 +34,8 @@ if not GOOGLE_API_KEY:
 # --- Build the Agent wired to your MCP server ---
 client = OpenAI()
 
-# Launches your MCP server via stdio. Make sure the file is in the same folder:
-MCP_COMMAND = ["python", "mcp_server_sk_code_smell.py"]
+# Launches your MCP server via stdio. The entry point lives in ``main.py``.
+MCP_COMMAND = ["python", "main.py"]
 
 smell_tool = tools.mcp_server(
     name="code_smell_mcp",
